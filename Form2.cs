@@ -10,28 +10,16 @@ using System.Windows.Forms;
 
 namespace Main_menu
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
+
         }
     }
 }
