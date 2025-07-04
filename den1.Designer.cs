@@ -40,7 +40,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(98, 72);
+            this.label1.Location = new System.Drawing.Point(93, 139);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(761, 96);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe Print", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(210, 168);
+            this.label2.Location = new System.Drawing.Point(216, 225);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(491, 88);
             this.label2.TabIndex = 1;

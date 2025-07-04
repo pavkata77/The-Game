@@ -19,7 +19,9 @@ namespace Main_menu
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            pushupexample pushupexample = new pushupexample();
+            pushupexample.Show();
         }
     }
 }

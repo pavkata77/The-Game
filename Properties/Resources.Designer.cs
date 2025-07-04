@@ -63,6 +63,26 @@ namespace Main_menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1__9zE_A7jBt9_DySFtbrWPw {
+            get {
+                object obj = ResourceManager.GetObject("1_-9zE_A7jBt9_DySFtbrWPw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1__9zE_A7jBt9_DySFtbrWPw__1_ {
+            get {
+                object obj = ResourceManager.GetObject("1_-9zE_A7jBt9_DySFtbrWPw (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GYM_LIFE {
             get {
                 object obj = ResourceManager.GetObject("GYM LIFE", resourceCulture);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Main_menu
 {
-    public partial class den1bad : Form
+    public partial class day1_burger : Form
     {
-        public den1bad()
+        public day1_burger()
         {
             InitializeComponent();
         }
@@ -22,11 +22,6 @@ namespace Main_menu
             this.Hide();
             Form1 form1 = new Form1();
             form1.Show();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="day1 burger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day1 burger.Designer.cs">
+      <DependentUpon>day1 burger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day1eating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day1eating.Designer.cs">
+      <DependentUpon>day1eating.cs</DependentUpon>
+    </Compile>
     <Compile Include="day1keeprunning.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
     <Compile Include="pushupexample.Designer.cs">
       <DependentUpon>pushupexample.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="day1 burger.resx">
+      <DependentUpon>day1 burger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day1eating.resx">
+      <DependentUpon>day1eating.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="day1keeprunning.resx">
       <DependentUpon>day1keeprunning.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +172,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image0_large.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_-9zE_A7jBt9_DySFtbrWPw %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_-9zE_A7jBt9_DySFtbrWPw.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
