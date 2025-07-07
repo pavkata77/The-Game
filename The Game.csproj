@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="day2 alien bad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day2 alien bad.Designer.cs">
+      <DependentUpon>day2 alien bad.cs</DependentUpon>
+    </Compile>
     <Compile Include="day1 burger.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,42 @@
     </Compile>
     <Compile Include="day1keeprunning.Designer.cs">
       <DependentUpon>day1keeprunning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day1salad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day1salad.Designer.cs">
+      <DependentUpon>day1salad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day1sleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day1sleep.Designer.cs">
+      <DependentUpon>day1sleep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day2 alien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day2 alien.Designer.cs">
+      <DependentUpon>day2 alien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day2alien end.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day2alien end.Designer.cs">
+      <DependentUpon>day2alien end.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day2getting ready.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day2getting ready.Designer.cs">
+      <DependentUpon>day2getting ready.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day2morning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day2morning.Designer.cs">
+      <DependentUpon>day2morning.cs</DependentUpon>
     </Compile>
     <Compile Include="den1.cs">
       <SubType>Form</SubType>
@@ -108,6 +150,9 @@
     <Compile Include="pushupexample.Designer.cs">
       <DependentUpon>pushupexample.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="day2 alien bad.resx">
+      <DependentUpon>day2 alien bad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="day1 burger.resx">
       <DependentUpon>day1 burger.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +161,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="day1keeprunning.resx">
       <DependentUpon>day1keeprunning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day1salad.resx">
+      <DependentUpon>day1salad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day1sleep.resx">
+      <DependentUpon>day1sleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day2 alien.resx">
+      <DependentUpon>day2 alien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day2alien end.resx">
+      <DependentUpon>day2alien end.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day2getting ready.resx">
+      <DependentUpon>day2getting ready.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day2morning.resx">
+      <DependentUpon>day2morning.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="den1.resx">
       <DependentUpon>den1.cs</DependentUpon>

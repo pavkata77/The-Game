@@ -10,25 +10,18 @@ using System.Windows.Forms;
 
 namespace Main_menu
 {
-    public partial class day1eating : Form
+    public partial class day1sleep : Form
     {
-        public day1eating()
+        public day1sleep()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            day1_burger day1_Burger = new day1_burger();    
-            day1_Burger.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            day1salad day1Salad = new day1salad();
-            day1Salad.Show();
+            day2morning day2Morning = new day2morning();
+            day2Morning.Show();
         }
     }
 }
