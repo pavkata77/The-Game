@@ -38,9 +38,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(537, 272);
+            this.label1.Location = new System.Drawing.Point(537, 236);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(351, 224);
+            this.label1.Size = new System.Drawing.Size(359, 266);
             this.label1.TabIndex = 0;
             this.label1.Text = "You went to sleep after your first day of training like someone who gave it every" +
     "thing—completely knocked out, sweat still drying, breathing heavy but peaceful. " +
