@@ -129,8 +129,10 @@ namespace Main_menu
                     if (successCount >= 10)
                     {
                         arrowTimer.Stop();
-                        MessageBox.Show("You win!");
-                        ShowMainMenu();
+                        MessageBox.Show("You did 10 reps! Now you will continue.");
+                        this.Hide();
+                        day2workout_finished day2Workout_Finished = new day2workout_finished();
+                        day2Workout_Finished.Show();
                     }
                     else
                     {
@@ -142,20 +144,16 @@ namespace Main_menu
                 {
                     arrowTimer.Stop();
                     MessageBox.Show("You missed! Game over.");
-                    ShowMainMenu();
+                    this.Hide();
+                    Form1 form1 = new Form1();  
+                    form1.Show();
                 }
             }
         }
 
         private void ShowMainMenu()
         {
-            DialogResult result = MessageBox.Show("You did 10 reps, now you will continue.", "Muscle", MessageBoxButtons.OK);
-            if (result == DialogResult.OK)
-            {
-                this.Hide();
-                day2workout_finished day2Workout_Finished = new day2workout_finished();
-                day2Workout_Finished.Show();
-            }
+            
         }
 
         
