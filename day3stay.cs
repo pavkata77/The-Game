@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Main_menu
 {
-    public partial class day1keeprunning : Form
+    public partial class day3stay : Form
     {
-        public day1keeprunning()
+        public day3stay()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            pushupexample2 pushupexample = new pushupexample();
-            pushupexample.Show();
         }
     }
 }

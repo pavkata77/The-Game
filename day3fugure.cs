@@ -28,5 +28,12 @@ namespace Main_menu
             day3meteor day3Meteor = new day3meteor();
             day3Meteor.Show();  
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            day3stay day3Stay = new day3stay();
+            day3Stay.Show();
+        }
     }
 }

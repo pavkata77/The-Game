@@ -166,6 +166,12 @@
     <Compile Include="day3preparing.Designer.cs">
       <DependentUpon>day3preparing.cs</DependentUpon>
     </Compile>
+    <Compile Include="day3stay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day3stay.Designer.cs">
+      <DependentUpon>day3stay.cs</DependentUpon>
+    </Compile>
     <Compile Include="den1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="day3preparing.resx">
       <DependentUpon>day3preparing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day3stay.resx">
+      <DependentUpon>day3stay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="den1.resx">
       <DependentUpon>den1.cs</DependentUpon>
