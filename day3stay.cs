@@ -16,5 +16,12 @@ namespace Main_menu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pushup2 pushup2 = new pushup2();
+            pushup2.Show();
+        }
     }
 }

@@ -142,6 +142,18 @@
     <Compile Include="day2workout finished.Designer.cs">
       <DependentUpon>day2workout finished.cs</DependentUpon>
     </Compile>
+    <Compile Include="day3aftertrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day3aftertrain.Designer.cs">
+      <DependentUpon>day3aftertrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day3finished.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day3finished.Designer.cs">
+      <DependentUpon>day3finished.cs</DependentUpon>
+    </Compile>
     <Compile Include="day3fugure.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +165,12 @@
     </Compile>
     <Compile Include="day3meteor.Designer.cs">
       <DependentUpon>day3meteor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="day3mirror.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="day3mirror.Designer.cs">
+      <DependentUpon>day3mirror.cs</DependentUpon>
     </Compile>
     <Compile Include="day3morning.cs">
       <SubType>Form</SubType>
@@ -216,6 +234,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pushup2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pushup2.Designer.cs">
+      <DependentUpon>pushup2.cs</DependentUpon>
+    </Compile>
     <Compile Include="pushupexample.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,11 +294,20 @@
     <EmbeddedResource Include="day2workout finished.resx">
       <DependentUpon>day2workout finished.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="day3aftertrain.resx">
+      <DependentUpon>day3aftertrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day3finished.resx">
+      <DependentUpon>day3finished.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="day3fugure.resx">
       <DependentUpon>day3fugure.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="day3meteor.resx">
       <DependentUpon>day3meteor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="day3mirror.resx">
+      <DependentUpon>day3mirror.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="day3morning.resx">
       <DependentUpon>day3morning.cs</DependentUpon>
@@ -322,6 +355,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="pushup2.resx">
+      <DependentUpon>pushup2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="pushupexample.resx">
       <DependentUpon>pushupexample.cs</DependentUpon>
     </EmbeddedResource>
@@ -349,6 +385,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1_-9zE_A7jBt9_DySFtbrWPw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise-18_1000x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exercise-18_1000x %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

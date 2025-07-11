@@ -83,6 +83,26 @@ namespace Main_menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exercise_18_1000x {
+            get {
+                object obj = ResourceManager.GetObject("exercise-18_1000x", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exercise_18_1000x__1_ {
+            get {
+                object obj = ResourceManager.GetObject("exercise-18_1000x (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GYM_LIFE {
             get {
                 object obj = ResourceManager.GetObject("GYM LIFE", resourceCulture);

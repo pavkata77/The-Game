@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace Main_menu
 {
-    public partial class day1keeprunning : Form
+    public partial class day3mirror : Form
     {
-        public day1keeprunning()
+        public day3mirror()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            pushupexample2 pushupexample = new pushupexample2();
-            pushupexample.Show();
+            day3finished day3Finished = new day3finished();
+            day3Finished.Show();
         }
     }
 }

@@ -40,7 +40,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(112, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 167);
+            this.label1.Size = new System.Drawing.Size(331, 238);
             this.label1.TabIndex = 0;
             this.label1.Text = "You just woke up and started stretching. You are ready for the big 3 day this tim" +
     "e feeling confident and good.\r\n\r\n";

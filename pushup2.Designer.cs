@@ -1,6 +1,6 @@
 ﻿namespace Main_menu
 {
-    partial class pushupexample2
+    partial class pushup2
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(148, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(173, 32);
+            this.label1.Size = new System.Drawing.Size(210, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
@@ -68,13 +68,14 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(392, 41);
+            this.label2.Location = new System.Drawing.Point(346, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(301, 35);
+            this.label2.Size = new System.Drawing.Size(279, 35);
             this.label2.TabIndex = 2;
-            this.label2.Text = "You have to do 30 push ups.";
+            this.label2.Text = "You have to do 50 sit ups.";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // pushupexample
+            // pushup2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,7 +86,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "pushupexample";
+            this.Name = "pushup2";
             this.Text = "pushupexample";
             this.Load += new System.EventHandler(this.pushupexample_Load);
             this.ResumeLayout(false);
